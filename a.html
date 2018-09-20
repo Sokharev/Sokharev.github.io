@@ -1,17 +1,17 @@
-<ul style="background:transparent;p{color:white};">
-<li>
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmobilelegendsgame%2Fvideos%2F259768904668741%2F&show_text=1&width=350" width="350" height="483" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
-</li>
-<li>
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FWokaWokaGame%2Fposts%2F1835982126487481&width=500" width="510" height="510" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-</li>
-<li>
-<div id="vk_post_-160307971_107"></div>
-<script type="text/javascript" src="https://vk.com/js/api/openapi.js?159"></script>
+<html>
+<body>
+<script src="https://websdk.getsocial.im/sdk.min.js"></script>
 <script type="text/javascript">
-  (function() {
-    VK.Widgets.Post("vk_post_-160307971_107", -160307971, 107, '3CD1oarID2QNRVWfojkIZ2b5qA',  {width: 500});
-  }());
+  var getSocial = new GetSocialSDK({appId: "MG7bGG0R6665"});
+
+  getSocial.smartBanner.create({
+    target: "smart-banner-container",
+    options: {
+      "position": "top",
+      "description": "Arena PvP Online"
+    },
+  });
 </script>
-</li>
-</ul>
+<div id="smart-banner-container"></div>
+</body>
+</html>
